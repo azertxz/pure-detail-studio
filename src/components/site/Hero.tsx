@@ -58,10 +58,6 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
           </div>
 
-          <div className="absolute -bottom-6 -left-4 sm:-left-8 rounded-2xl bg-card/90 backdrop-blur border border-border p-4 shadow-soft hidden sm:block">
-            <div className="text-xs text-muted-foreground">Next available</div>
-            <div className="text-base font-semibold text-foreground">Tomorrow · 9:00 AM</div>
-          </div>
           <div className="absolute -top-6 -right-4 sm:-right-8 rounded-2xl bg-card/90 backdrop-blur border border-border p-4 shadow-soft hidden sm:block">
             <div className="text-xs text-muted-foreground">Service area</div>
             <div className="text-base font-semibold text-foreground">Kesgrave & nearby</div>
