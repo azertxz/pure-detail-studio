@@ -12,7 +12,7 @@ export function Footer() {
             <span className="text-foreground">Kesgrave Mobile Car Detailing</span>
           </div>
           <p className="mt-4 text-sm text-muted-foreground max-w-md">
-            Mobile car detailing in Kesgrave. Hand-washed, eco-friendly, and done on your driveway.
+            Mobile car detailing in Kesgrave. Hand-washed, straightforward, and done at your home.
           </p>
           <div className="mt-5 flex items-center gap-3">
             <a aria-label="Instagram" href="#" className="w-9 h-9 grid place-items-center rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition">
@@ -39,7 +39,7 @@ export function Footer() {
           <div className="text-sm font-semibold text-foreground">Company</div>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
             <li><a href="#pricing" className="hover:text-foreground">Pricing</a></li>
-            <li><a href="#pricing" className="hover:text-foreground">Pricing</a></li>
+            <li><a href="#faq" className="hover:text-foreground">FAQ</a></li>
             <li><a href="#contact" className="hover:text-foreground">Contact</a></li>
             <li><a href="#" className="hover:text-foreground">Privacy</a></li>
             <li><a href="#" className="hover:text-foreground">Terms</a></li>

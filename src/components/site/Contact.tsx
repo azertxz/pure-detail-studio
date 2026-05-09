@@ -10,7 +10,7 @@ export function Contact() {
     setSending(true);
     setTimeout(() => {
       setSending(false);
-      toast.success("Thanks! We'll be in touch within a few hours.");
+      toast.success("Thanks! I'll get back to you with availability shortly.");
       (e.target as HTMLFormElement).reset();
     }, 700);
   };
@@ -21,10 +21,11 @@ export function Contact() {
         <div className="reveal">
           <p className="text-sm font-medium text-primary uppercase tracking-widest">Contact</p>
           <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight text-foreground">
-            Book a detail or just ask a question.
+            Book a detail or ask a question.
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Fill out the form and I'll get back to you with availability, or reach out directly.
+            Send your details and I'll get back to you with availability. You can also call or
+            message directly.
           </p>
 
           <ul className="mt-8 space-y-4">
@@ -35,7 +36,7 @@ export function Contact() {
               <div>
                 <div className="text-sm text-muted-foreground">Phone</div>
                 <a href="tel:+447557981537" className="text-foreground font-medium">
-                  +44 07557 981537
+                  +44 7557 981537
                 </a>
               </div>
             </li>
@@ -45,8 +46,8 @@ export function Contact() {
               </div>
               <div>
                 <div className="text-sm text-muted-foreground">Email</div>
-                <a href="mailto:hello@pristinewash.example" className="text-foreground font-medium">
-                  hello@pristinewash.example
+                <a href="mailto:hello@replace-this-email.co.uk" className="text-foreground font-medium">
+                  hello@replace-this-email.co.uk
                 </a>
               </div>
             </li>
@@ -56,7 +57,7 @@ export function Contact() {
               </div>
               <div>
                 <div className="text-sm text-muted-foreground">Service area</div>
-                <div className="text-foreground font-medium">Kesgrave & nearby villages</div>
+                <div className="text-foreground font-medium">Kesgrave and within 5 miles</div>
               </div>
             </li>
           </ul>
@@ -71,7 +72,7 @@ export function Contact() {
             <Field label="Phone" name="phone" type="tel" required />
           </div>
           <Field label="Email" name="email" type="email" required />
-          <Field label="Vehicle (year, make, model)" name="vehicle" />
+          <Field label="Vehicle, year, make and model" name="vehicle" />
           <div>
             <label className="block text-xs font-medium text-muted-foreground mb-1.5">
               Service interested in
@@ -79,22 +80,23 @@ export function Contact() {
             <select
               name="service"
               className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground focus:outline-none focus:border-primary"
-              defaultValue="Full Valet"
+              defaultValue="Mini Detail"
             >
-              <option>Interior Clean</option>
-              <option>Exterior Wash</option>
-              <option>Full Valet</option>
+              <option>Maintenance Detail</option>
+              <option>Mini Detail</option>
+              <option>Deep Clean</option>
               <option>Not sure yet</option>
             </select>
           </div>
+          <Field label="Preferred date" name="date" type="date" />
           <div>
             <label className="block text-xs font-medium text-muted-foreground mb-1.5">
-              Notes
+              Message
             </label>
             <textarea
-              name="notes"
+              name="message"
               rows={4}
-              placeholder="Anything we should know? Pet hair, stains, preferred date…"
+              placeholder="Anything I should know? Pet hair, stains, problem areas..."
               className="w-full rounded-xl border border-border bg-background px-4 py-3 text-sm text-foreground focus:outline-none focus:border-primary resize-none"
             />
           </div>
@@ -104,10 +106,10 @@ export function Contact() {
             className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-primary text-primary-foreground py-3.5 font-medium hover:opacity-90 disabled:opacity-60 transition shadow-glow"
           >
             <Send className="w-4 h-4" />
-            {sending ? "Sending..." : "Request booking"}
+            {sending ? "Sending..." : "Request Booking"}
           </button>
           <p className="text-xs text-muted-foreground text-center">
-            We'll never share your details. Demo form — replace with your booking system.
+            Your details are only used to respond to your enquiry.
           </p>
         </form>
       </div>
