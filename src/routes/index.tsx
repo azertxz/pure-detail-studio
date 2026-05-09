@@ -1,26 +1,56 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Toaster } from "@/components/ui/sonner";
+import { Header } from "@/components/site/Header";
+import { Hero } from "@/components/site/Hero";
+import { Trust } from "@/components/site/Trust";
+import { Services } from "@/components/site/Services";
+import { Gallery } from "@/components/site/Gallery";
+import { Pricing } from "@/components/site/Pricing";
+import { Reviews } from "@/components/site/Reviews";
+import { Faq } from "@/components/site/Faq";
+import { Contact } from "@/components/site/Contact";
+import { Footer } from "@/components/site/Footer";
+import { StickyBook } from "@/components/site/StickyBook";
+import { useReveal } from "@/hooks/use-reveal";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "PristineWash — Mobile Car Detailing in the GTA" },
+      {
+        name: "description",
+        content:
+          "Premium mobile car detailing in the Greater Toronto Area. Hand-washed, eco-friendly, and done right at your home or office. Clear pricing, real results.",
+      },
+      { property: "og:title", content: "PristineWash — Mobile Car Detailing" },
+      {
+        property: "og:description",
+        content:
+          "Hand-detailed inside and out, at your door. Clear pricing, eco-friendly, trusted by hundreds of locals.",
+      },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
+function Index() {
+  useReveal();
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background text-foreground antialiased">
+      <Header />
+      <main>
+        <Hero />
+        <Trust />
+        <Services />
+        <Gallery />
+        <Pricing />
+        <Reviews />
+        <Faq />
+        <Contact />
+      </main>
+      <Footer />
+      <StickyBook />
+      <Toaster />
     </div>
   );
-}
-
-function Index() {
-  return <PlaceholderIndex />;
 }
