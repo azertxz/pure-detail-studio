@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Phone, Mail, MapPin, Clock, Send } from "lucide-react";
+import { Phone, Mail, MapPin, Send } from "lucide-react";
 import { toast } from "sonner";
 
 export function Contact() {
@@ -24,7 +24,7 @@ export function Contact() {
             Book a detail or just ask a question.
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Fill out the form and we'll get back to you with availability, or reach us directly.
+            Fill out the form and I'll get back to you with availability, or reach out directly.
           </p>
 
           <ul className="mt-8 space-y-4">
@@ -34,8 +34,8 @@ export function Contact() {
               </div>
               <div>
                 <div className="text-sm text-muted-foreground">Phone</div>
-                <a href="tel:+14165550199" className="text-foreground font-medium">
-                  (416) 555-0199
+                <a href="tel:+447557981537" className="text-foreground font-medium">
+                  +44 07557 981537
                 </a>
               </div>
             </li>
@@ -56,16 +56,7 @@ export function Contact() {
               </div>
               <div>
                 <div className="text-sm text-muted-foreground">Service area</div>
-                <div className="text-foreground font-medium">Greater Toronto Area</div>
-              </div>
-            </li>
-            <li className="flex items-start gap-4">
-              <div className="w-10 h-10 rounded-xl bg-primary/10 text-primary grid place-items-center">
-                <Clock className="w-4 h-4" />
-              </div>
-              <div>
-                <div className="text-sm text-muted-foreground">Hours</div>
-                <div className="text-foreground font-medium">Mon–Sat · 8:00–7:00</div>
+                <div className="text-foreground font-medium">Kesgrave & nearby Suffolk</div>
               </div>
             </li>
           </ul>

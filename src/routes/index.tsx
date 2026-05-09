@@ -6,7 +6,6 @@ import { Trust } from "@/components/site/Trust";
 import { Services } from "@/components/site/Services";
 import { Gallery } from "@/components/site/Gallery";
 import { Pricing } from "@/components/site/Pricing";
-import { Reviews } from "@/components/site/Reviews";
 import { Faq } from "@/components/site/Faq";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
@@ -44,7 +43,6 @@ function Index() {
         <Services />
         <Gallery />
         <Pricing />
-        <Reviews />
         <Faq />
         <Contact />
       </main>

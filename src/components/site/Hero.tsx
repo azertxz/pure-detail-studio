@@ -1,4 +1,4 @@
-import { ArrowRight, Star } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import heroImg from "@/assets/hero-car.jpg";
 
 export function Hero() {
@@ -19,8 +19,8 @@ export function Hero() {
             <span className="text-primary">parked at your door.</span>
           </h1>
           <p className="mt-5 text-lg text-muted-foreground max-w-xl">
-            Hand-detailed inside and out by trained pros — at your home or office. Eco-friendly
-            products, real attention to detail, no rushed automatic wash.
+            A one-person mobile detailing service in Kesgrave. Hand-washed inside and out at your
+            home — no rushed automatic wash, just careful work and honest pricing.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -39,15 +39,10 @@ export function Hero() {
             </a>
           </div>
 
-          <div className="mt-10 flex items-center gap-6 text-sm">
-            <div className="flex items-center gap-1 text-primary">
-              {[0, 1, 2, 3, 4].map((i) => (
-                <Star key={i} className="w-4 h-4 fill-current" />
-              ))}
-            </div>
-            <div className="text-muted-foreground">
-              <span className="text-foreground font-semibold">4.9/5</span> from 320+ local reviews
-            </div>
+          <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
+            <span>Based in Kesgrave</span>
+            <span className="hidden sm:inline">•</span>
+            <span>Covering nearby Suffolk villages</span>
           </div>
         </div>
 
@@ -69,7 +64,7 @@ export function Hero() {
           </div>
           <div className="absolute -top-6 -right-4 sm:-right-8 rounded-2xl bg-card/90 backdrop-blur border border-border p-4 shadow-soft hidden sm:block">
             <div className="text-xs text-muted-foreground">Service area</div>
-            <div className="text-base font-semibold text-foreground">Greater Toronto · GTA</div>
+            <div className="text-base font-semibold text-foreground">Kesgrave & nearby</div>
           </div>
         </div>
       </div>

@@ -12,8 +12,8 @@ export function Footer() {
             <span className="text-foreground">PristineWash</span>
           </div>
           <p className="mt-4 text-sm text-muted-foreground max-w-md">
-            Mobile car detailing across the GTA. Hand-washed, eco-friendly, and done right at your
-            home or office.
+            Mobile car detailing in Kesgrave and nearby Suffolk villages. Hand-washed,
+            eco-friendly, and done on your driveway.
           </p>
           <div className="mt-5 flex items-center gap-3">
             <a aria-label="Instagram" href="#" className="w-9 h-9 grid place-items-center rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition">
@@ -28,11 +28,11 @@ export function Footer() {
         <div>
           <div className="text-sm font-semibold text-foreground">Service area</div>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-            <li>Toronto</li>
-            <li>Mississauga</li>
-            <li>Vaughan</li>
-            <li>Markham</li>
-            <li>Etobicoke</li>
+            <li>Kesgrave</li>
+            <li>Martlesham</li>
+            <li>Rushmere St Andrew</li>
+            <li>Woodbridge</li>
+            <li>Ipswich</li>
           </ul>
         </div>
 

@@ -7,8 +7,8 @@ import {
 
 const faqs = [
   {
-    q: "Do I need to provide water or power?",
-    a: "Nope. Our van carries its own water tank and generator, so all we need is a parking spot near your car.",
+    q: "Do you need water and power?",
+    a: "Yes — please have an outdoor tap and an outdoor power socket available. That's all I need to get set up on your driveway.",
   },
   {
     q: "How long does a full valet take?",
@@ -16,19 +16,19 @@ const faqs = [
   },
   {
     q: "What if it rains?",
-    a: "If the weather turns, we'll reach out to reschedule at no charge. Light drizzle is usually fine — we work under a portable shelter.",
+    a: "If the weather turns heavy I'll reach out to reschedule at no charge. Light drizzle is usually fine.",
   },
   {
     q: "How do I pay?",
-    a: "We accept e-transfer, credit and debit cards on the spot. No deposit required for standard bookings.",
+    a: "Bank transfer or card on the day. No deposit required for standard bookings.",
   },
   {
     q: "Is pet hair extra?",
-    a: "Heavy pet hair is a small add-on (from $25). Light shedding is usually included in the interior detail.",
+    a: "Heavy pet hair is a small add-on. Light shedding is usually included in the interior detail.",
   },
   {
     q: "Do you offer a satisfaction guarantee?",
-    a: "Yes. If you spot something we missed, send us a photo within 24 hours and we'll come back to fix it free of charge.",
+    a: "Yes. If you spot something I missed, send me a photo within 24 hours and I'll come back to fix it free of charge.",
   },
 ];
 
