@@ -67,8 +67,8 @@ export function Services() {
             </h2>
           </div>
           <p className="text-muted-foreground max-w-md">
-            Every package is hand-done by a trained detailer. Mix and match add-ons to fit your
-            schedule and budget.
+            Every package is done by hand, by me — start to finish. Mix and match add-ons to fit
+            your car and your budget.
           </p>
         </div>
 

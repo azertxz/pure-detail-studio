@@ -13,13 +13,13 @@ const items = [
   },
   {
     icon: Clock,
-    title: "We come to you",
-    body: "Home or office — fully self-contained van with water and power. You don't lift a finger.",
+    title: "I come to you",
+    body: "Detailing done on your driveway in Kesgrave. I'll just need access to an outdoor tap and a power socket.",
   },
   {
     icon: Droplets,
-    title: "Real attention to detail",
-    body: "Trained detailers, not weekend gig workers. We treat every car like it's our own.",
+    title: "One careful pair of hands",
+    body: "It's just me — no rotating staff. Every car gets the same focused attention from start to finish.",
   },
 ];
 
