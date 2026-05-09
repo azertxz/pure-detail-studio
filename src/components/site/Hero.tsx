@@ -58,9 +58,9 @@ export function Hero() {
             <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
           </div>
 
-          <div className="absolute -top-6 -right-4 sm:-right-8 rounded-2xl bg-card/90 backdrop-blur border border-border p-4 shadow-soft hidden sm:block">
+          <div className="absolute -top-6 -right-4 sm:-right-8 rounded-2xl bg-card/90 backdrop-blur border border-border p-4 shadow-soft hidden sm:block text-center">
             <div className="text-xs text-muted-foreground">Service area</div>
-            <div className="text-base font-semibold text-foreground">Kesgrave & nearby</div>
+            <div className="text-base font-semibold text-foreground">Kesgrave</div>
           </div>
         </div>
       </div>
