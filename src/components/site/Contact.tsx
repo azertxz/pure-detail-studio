@@ -56,7 +56,7 @@ export function Contact() {
               </div>
               <div>
                 <div className="text-sm text-muted-foreground">Service area</div>
-                <div className="text-foreground font-medium">Kesgrave & nearby Suffolk</div>
+                <div className="text-foreground font-medium">Kesgrave & nearby villages</div>
               </div>
             </li>
           </ul>
