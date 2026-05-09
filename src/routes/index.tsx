@@ -15,13 +15,13 @@ import { useReveal } from "@/hooks/use-reveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "PristineWash — Mobile Car Detailing in the GTA" },
+      { title: "Kesgrave Mobile Car Detailing — Suffolk" },
       {
         name: "description",
         content:
           "Premium mobile car detailing in the Greater Toronto Area. Hand-washed, eco-friendly, and done right at your home or office. Clear pricing, real results.",
       },
-      { property: "og:title", content: "PristineWash — Mobile Car Detailing" },
+      { property: "og:title", content: "Kesgrave Mobile Car Detailing" },
       {
         property: "og:description",
         content:
