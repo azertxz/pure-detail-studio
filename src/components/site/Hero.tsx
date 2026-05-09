@@ -32,10 +32,10 @@ export function Hero() {
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
-              href="#services"
+              href="#pricing"
               className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-6 py-3.5 font-medium text-foreground hover:bg-card transition"
             >
-              View Services
+              View Pricing
             </a>
           </div>
 
