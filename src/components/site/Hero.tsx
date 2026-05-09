@@ -42,7 +42,7 @@ export function Hero() {
           <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
             <span>Based in Kesgrave</span>
             <span className="hidden sm:inline">•</span>
-            <span>Covering nearby Suffolk villages</span>
+            <span>Covering nearby villages</span>
           </div>
         </div>
 
