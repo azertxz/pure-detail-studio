@@ -32,7 +32,7 @@ export function Trust() {
             Why us
           </p>
           <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight text-foreground">
-            Better than a $15 automatic wash — by a long way.
+            Better than a £10 automatic wash — by a long way.
           </h2>
           <p className="mt-4 text-muted-foreground">
             A drive-through wash takes seven minutes and leaves swirl marks. We take our time, use
