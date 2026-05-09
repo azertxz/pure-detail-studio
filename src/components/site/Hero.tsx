@@ -12,15 +12,15 @@ export function Hero() {
         <div className="reveal">
           <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 backdrop-blur px-3 py-1.5 text-xs text-muted-foreground">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-            Mobile detailing — we come to you
+            Mobile detailing in Kesgrave and nearby areas
           </div>
           <h1 className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-foreground leading-[1.05]">
-            A showroom finish,{" "}
-            <span className="text-primary">parked at your door.</span>
+            Careful mobile car detailing{" "}
+            <span className="text-primary">at your home.</span>
           </h1>
           <p className="mt-5 text-lg text-muted-foreground max-w-xl">
-            A one-person mobile detailing service in Kesgrave. Hand-washed inside and out at your
-            home — no rushed automatic wash, just careful work and honest pricing.
+            A one-person mobile detailing service for drivers who want their car properly cleaned
+            without using a rushed automatic wash. I come to you and work by hand on your driveway.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -42,7 +42,7 @@ export function Hero() {
           <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
             <span>Based in Kesgrave</span>
             <span className="hidden sm:inline">•</span>
-            <span>Covering nearby villages</span>
+            <span>Covering a 5 mile radius</span>
           </div>
         </div>
 
@@ -60,7 +60,7 @@ export function Hero() {
 
           <div className="absolute -top-6 -right-4 sm:-right-8 rounded-2xl bg-card/90 backdrop-blur border border-border p-4 shadow-soft hidden sm:block text-center">
             <div className="text-xs text-muted-foreground">Service area</div>
-            <div className="text-base font-semibold text-foreground">Kesgrave</div>
+            <div className="text-base font-semibold text-foreground">Kesgrave + nearby areas</div>
           </div>
         </div>
       </div>

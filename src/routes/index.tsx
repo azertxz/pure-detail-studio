@@ -14,17 +14,17 @@ import { useReveal } from "@/hooks/use-reveal";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Kesgrave Mobile Car Detailing — Suffolk" },
+      { title: "Kesgrave Mobile Car Detailing" },
       {
         name: "description",
         content:
-          "Premium mobile car detailing in the Greater Toronto Area. Hand-washed, eco-friendly, and done right at your home or office. Clear pricing, real results.",
+          "Mobile car detailing in Kesgrave and within 5 miles. Hand-washed at your home, with clear pricing and a one-person service.",
       },
       { property: "og:title", content: "Kesgrave Mobile Car Detailing" },
       {
         property: "og:description",
         content:
-          "Hand-detailed inside and out, at your door. Clear pricing, eco-friendly, trusted by hundreds of locals.",
+          "Mobile car detailing in Kesgrave. Hand-washed, straightforward, and done at your home.",
       },
     ],
   }),

@@ -18,7 +18,7 @@ const tiers: Tier[] = [
     name: "Maintenance Detail",
     icon: Droplets,
     description:
-      "A simple regular clean for cars that need maintenance rather than a full reset.",
+      "For cars that need a regular tidy-up rather than a full reset.",
     prices: { Small: 35, Medium: 40, Large: 45, "X-Large": 50 },
     includes: [
       "Safe exterior wash",
@@ -34,7 +34,7 @@ const tiers: Tier[] = [
     name: "Mini Detail",
     icon: Sparkles,
     description:
-      "A more thorough inside-and-out clean for cars needing extra attention.",
+      "A more complete inside and outside valet for cars needing extra attention.",
     prices: { Small: 60, Medium: 65, Large: 70, "X-Large": 80 },
     includes: [
       "Exterior wash",
@@ -51,7 +51,7 @@ const tiers: Tier[] = [
     name: "Deep Clean",
     icon: Wand2,
     description:
-      "A deeper clean for dirtier vehicles needing more time and attention.",
+      "For dirtier vehicles that need more time spent on the interior and problem areas.",
     prices: { Small: 110, Medium: 125, Large: 135, "X-Large": 150 },
     includes: [
       "Everything in the Mini Detail",
@@ -95,11 +95,10 @@ export function Pricing() {
             Services & Pricing
           </p>
           <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight text-foreground">
-            Clear pricing by vehicle size.
+            Clear prices by vehicle size.
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Three straightforward packages. No hidden fees — pick the level of clean your car
-            needs.
+            Pick the level of detail your car needs. No hidden fees, no confusing add-ons.
           </p>
         </div>
 
@@ -111,7 +110,7 @@ export function Pricing() {
             </span>
             <p className="text-sm sm:text-base text-foreground/90">
               <span className="font-semibold text-foreground">25% off</span> for the first 10
-              local customers — in exchange for honest feedback and permission to use before /
+              local customers in exchange for honest feedback and permission to use before and
               after photos.
             </p>
           </div>
@@ -211,7 +210,7 @@ export function Pricing() {
             <div className="flex items-center justify-between flex-wrap gap-3">
               <h3 className="text-lg font-semibold text-foreground">Vehicle size guide</h3>
               <span className="text-xs text-muted-foreground">
-                Examples — not an exhaustive list
+                Examples only, not a complete list.
               </span>
             </div>
             <div className="mt-5 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">

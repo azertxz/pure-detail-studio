@@ -88,8 +88,11 @@ export function Gallery() {
           <div className="max-w-xl">
             <p className="text-sm font-medium text-primary uppercase tracking-widest">Gallery</p>
             <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight text-foreground">
-              See the difference. Drag to compare.
+              Before and after results.
             </h2>
+            <p className="mt-4 text-muted-foreground">
+              Real photos will be added as I build my local portfolio.
+            </p>
           </div>
         </div>
 

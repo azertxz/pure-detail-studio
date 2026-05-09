@@ -3,23 +3,23 @@ import { Droplets, Leaf, Clock, ShieldCheck } from "lucide-react";
 const items = [
   {
     icon: ShieldCheck,
-    title: "Hand-washed, never automated",
-    body: "Soft microfiber, two-bucket method, pH-balanced soap. No swirl marks, no spinning brushes.",
+    title: "Washed by hand",
+    body: "No harsh spinning brushes. I use wash mitts, soft brushes, and proper products to clean the car more carefully.",
   },
   {
-    icon: Leaf,
-    title: "Eco-friendly products",
-    body: "Biodegradable cleaners and minimal water use. Safe for your driveway and the neighbourhood.",
+    icon: Droplets,
+    title: "Simple, honest service",
+    body: "One person handles the job from start to finish, so you know who is working on your car.",
   },
   {
     icon: Clock,
     title: "I come to you",
-    body: "Detailing done on your driveway in Kesgrave. I'll just need access to an outdoor tap and a power socket.",
+    body: "I work on your driveway. I just need access to an outdoor tap and power socket.",
   },
   {
-    icon: Droplets,
-    title: "One careful pair of hands",
-    body: "It's just me — no rotating staff. Every car gets the same focused attention from start to finish.",
+    icon: Leaf,
+    title: "Careful product use",
+    body: "I use sensible amounts of water and choose safe products for the job wherever possible.",
   },
 ];
 
@@ -32,11 +32,11 @@ export function Trust() {
             Why me
           </p>
           <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight text-foreground">
-            Better than a £10 automatic wash — by a long way.
+            A better option than a rushed car wash.
           </h2>
           <p className="mt-4 text-muted-foreground">
-            A drive-through wash takes seven minutes and leaves swirl marks. I take my time, use
-            proper products, and clean the spots a tunnel can never reach.
+            Automatic washes are quick, but they often miss the details. I take more time, use
+            proper tools, and clean by hand so your car gets a more careful finish.
           </p>
         </div>
 
