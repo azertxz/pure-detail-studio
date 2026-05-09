@@ -3,7 +3,6 @@ import { Toaster } from "@/components/ui/sonner";
 import { Header } from "@/components/site/Header";
 import { Hero } from "@/components/site/Hero";
 import { Trust } from "@/components/site/Trust";
-import { Services } from "@/components/site/Services";
 import { Gallery } from "@/components/site/Gallery";
 import { Pricing } from "@/components/site/Pricing";
 import { Faq } from "@/components/site/Faq";
@@ -40,7 +39,6 @@ function Index() {
       <main>
         <Hero />
         <Trust />
-        <Services />
         <Gallery />
         <Pricing />
         <Faq />

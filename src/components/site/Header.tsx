@@ -3,7 +3,7 @@ import { Menu, X, Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { href: "#services", label: "Services" },
+  { href: "#pricing", label: "Services" },
   { href: "#gallery", label: "Gallery" },
   { href: "#pricing", label: "Pricing" },
   { href: "#faq", label: "FAQ" },
