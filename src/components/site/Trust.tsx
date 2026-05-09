@@ -29,13 +29,13 @@ export function Trust() {
       <div className="mx-auto max-w-7xl px-5 lg:px-8">
         <div className="max-w-2xl reveal">
           <p className="text-sm font-medium text-primary uppercase tracking-widest">
-            Why us
+            Why me
           </p>
           <h2 className="mt-3 text-3xl md:text-4xl font-semibold tracking-tight text-foreground">
-            Better than a $15 automatic wash — by a long way.
+            Better than a £10 automatic wash — by a long way.
           </h2>
           <p className="mt-4 text-muted-foreground">
-            A drive-through wash takes seven minutes and leaves swirl marks. We take our time, use
+            A drive-through wash takes seven minutes and leaves swirl marks. I take my time, use
             proper products, and clean the spots a tunnel can never reach.
           </p>
         </div>
