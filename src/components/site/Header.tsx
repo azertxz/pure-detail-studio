@@ -35,7 +35,7 @@ export function Header() {
           <span className="grid place-items-center w-9 h-9 rounded-xl bg-brand-gradient text-primary-foreground shadow-glow">
             <Sparkles className="w-4 h-4" />
           </span>
-          <span className="text-foreground">PristineWash</span>
+          <span className="text-foreground">Kesgrave Mobile Car Detailing</span>
           <span className="text-muted-foreground text-xs hidden sm:inline">/ mobile detail</span>
         </a>
 

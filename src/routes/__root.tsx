@@ -72,9 +72,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "PristineWash — Mobile Car Detailing" },
+      { title: "Kesgrave Mobile Car Detailing" },
       { name: "description", content: "Premium mobile car detailing in the GTA." },
-      { name: "author", content: "PristineWash" },
+      { name: "author", content: "Kesgrave Mobile Car Detailing" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
     ],

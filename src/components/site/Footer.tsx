@@ -9,7 +9,7 @@ export function Footer() {
             <span className="grid place-items-center w-9 h-9 rounded-xl bg-brand-gradient text-primary-foreground">
               <Sparkles className="w-4 h-4" />
             </span>
-            <span className="text-foreground">PristineWash</span>
+            <span className="text-foreground">Kesgrave Mobile Car Detailing</span>
           </div>
           <p className="mt-4 text-sm text-muted-foreground max-w-md">
             Mobile car detailing in Kesgrave and nearby Suffolk villages. Hand-washed,
@@ -49,7 +49,7 @@ export function Footer() {
       </div>
 
       <div className="mx-auto max-w-7xl px-5 lg:px-8 mt-10 pt-6 border-t border-border flex flex-wrap items-center justify-between gap-3 text-xs text-muted-foreground">
-        <span>© {new Date().getFullYear()} PristineWash Mobile Detailing. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Kesgrave Mobile Car Detailing. All rights reserved.</span>
         <span>Made for everyday drivers.</span>
       </div>
     </footer>
