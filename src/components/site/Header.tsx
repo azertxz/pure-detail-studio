@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import { Menu, X, Sparkles } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/logo.png";
 
 const links = [
   { href: "#gallery", label: "Gallery" },
@@ -31,9 +32,13 @@ export function Header() {
     >
       <nav className="mx-auto max-w-7xl px-5 lg:px-8 h-16 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2 font-semibold tracking-tight">
-          <span className="grid place-items-center w-9 h-9 rounded-xl bg-brand-gradient text-primary-foreground shadow-glow">
-            <Sparkles className="w-4 h-4" />
-          </span>
+          <img
+            src={logo}
+            alt="Kesgrave Mobile Car Detailing logo"
+            className="h-10 w-10 sm:h-11 sm:w-11 object-contain rounded-md"
+            loading="eager"
+            decoding="async"
+          />
           <span className="text-foreground hidden sm:inline">Kesgrave Mobile Car Detailing</span>
           <span className="text-foreground sm:hidden">Kesgrave Detailing</span>
         </a>
