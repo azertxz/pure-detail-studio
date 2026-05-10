@@ -1,14 +1,19 @@
-import { Instagram, Facebook, Sparkles } from "lucide-react";
+import { Instagram, Facebook } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export function Footer() {
   return (
     <footer className="border-t border-border py-14 mt-10">
       <div className="mx-auto max-w-7xl px-5 lg:px-8 grid md:grid-cols-4 gap-10">
         <div className="md:col-span-2">
-          <div className="flex items-center gap-2 font-semibold">
-            <span className="grid place-items-center w-9 h-9 rounded-xl bg-brand-gradient text-primary-foreground">
-              <Sparkles className="w-4 h-4" />
-            </span>
+          <div className="flex items-center gap-3 font-semibold">
+            <img
+              src={logo}
+              alt="Kesgrave Mobile Car Detailing logo"
+              className="h-12 w-12 object-contain rounded-md"
+              loading="lazy"
+              decoding="async"
+            />
             <span className="text-foreground">Kesgrave Mobile Car Detailing</span>
           </div>
           <p className="mt-4 text-sm text-muted-foreground max-w-md">
