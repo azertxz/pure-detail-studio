@@ -15,7 +15,7 @@ export function Hero() {
             Mobile detailing in Kesgrave and nearby areas
           </div>
           <h1 className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-semibold tracking-tight text-foreground leading-[1.05]">
-            Careful mobile car detailing{" "}
+            A showroom finish,{" "}
             <span className="text-primary">at your home.</span>
           </h1>
           <p className="mt-5 text-lg text-muted-foreground max-w-xl">
