@@ -19,8 +19,9 @@ export function Hero() {
             <span className="text-primary">at your home.</span>
           </h1>
           <p className="mt-5 text-lg text-muted-foreground max-w-xl">
-            A one-person mobile detailing service for drivers who want their car properly cleaned
-            without using a rushed automatic wash. I come to you and work by hand on your driveway.
+            A local mobile detailing service for drivers who want a better finish than a standard
+            car wash. I bring the equipment to your driveway and give each booking proper time and
+            attention.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
