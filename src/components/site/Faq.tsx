@@ -8,7 +8,7 @@ import {
 const faqs = [
   {
     q: "Do you need water and power?",
-    a: "Yes. Please have an outdoor tap and an outdoor power socket available. That gives me everything I need to set up on your driveway.",
+    a: "Yes. Please have an outdoor tap and a power socket available. That gives me everything I need to set up on your driveway.",
   },
   {
     q: "How long does a valet take?",
