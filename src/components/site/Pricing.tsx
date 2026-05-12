@@ -18,11 +18,11 @@ const tiers: Tier[] = [
     name: "Maintenance Detail",
     icon: Droplets,
     description:
-      "For cars that need a regular tidy-up rather than a full reset.",
+      "For cars that need a light refresh rather than a deeper valet.",
     prices: { Small: 35, Medium: 40, Large: 45, "X-Large": 50 },
     includes: [
-      "Safe exterior wash",
-      "Wheels cleaned",
+      "Exterior wash",
+      "Wheels and arches cleaned",
       "Tyres dressed",
       "Exterior glass cleaned",
       "Quick interior vacuum",
@@ -98,7 +98,7 @@ export function Pricing() {
             Clear prices by vehicle size.
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Pick the level of detail your car needs. No hidden fees, no confusing add-ons.
+            Pick the level of detail your car needs.
           </p>
         </div>
 
@@ -210,7 +210,7 @@ export function Pricing() {
             <div className="flex items-center justify-between flex-wrap gap-3">
               <h3 className="text-lg font-semibold text-foreground">Vehicle size guide</h3>
               <span className="text-xs text-muted-foreground">
-                Examples only, not a complete list.
+                Vehicle examples are a guide only.
               </span>
             </div>
             <div className="mt-5 grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
