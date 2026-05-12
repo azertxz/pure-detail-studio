@@ -17,7 +17,7 @@ export function Footer() {
             <span className="text-foreground">Kesgrave Mobile Car Detailing</span>
           </div>
           <p className="mt-4 text-sm text-muted-foreground max-w-md">
-            Mobile car detailing in Kesgrave. Hand-washed, straightforward, and done at your home.
+            Mobile car detailing in Kesgrave, carried out with care at your home.
           </p>
           <div className="mt-5 flex items-center gap-3">
             <a aria-label="Instagram" href="#" className="w-9 h-9 grid place-items-center rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary transition">
