@@ -4,7 +4,7 @@ const items = [
   {
     icon: ShieldCheck,
     title: "Washed by hand",
-    body: "No harsh spinning brushes. I use wash mitts, soft brushes, and proper products to clean the car more carefully.",
+    body: "No harsh spinning brushes. I use wash mitts, different types of brushes, and proper products to clean the car more carefully.",
   },
   {
     icon: Droplets,
@@ -19,7 +19,7 @@ const items = [
   {
     icon: Leaf,
     title: "Careful product use",
-    body: "I use sensible amounts of water and choose safe products for the job wherever possible.",
+    body: "I use minimal amounts of water and always choose safe products for the job wherever possible.",
   },
 ];
 
@@ -35,8 +35,8 @@ export function Trust() {
             A better option than a rushed car wash.
           </h2>
           <p className="mt-4 text-muted-foreground">
-            Automatic washes are quick, but they often miss the details. I take more time, use
-            proper tools, and clean by hand so your car gets a more careful finish.
+            Automatic washes are quick and cheap, but they often miss the details. I take more
+            time, use the correct tools, and clean by hand so your car gets a more careful finish.
           </p>
         </div>
 
