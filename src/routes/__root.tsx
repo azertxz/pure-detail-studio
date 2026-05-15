@@ -73,10 +73,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Kesgrave Mobile Car Detailing" },
-      { name: "description", content: "Premium mobile car detailing in the GTA." },
+      { name: "description", content: "Premium mobile car detailing in kesgrave." },
       { name: "author", content: "Kesgrave Mobile Car Detailing" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { property: "og:title", content: "Kesgrave Mobile Car Detailing" },
+      { name: "twitter:title", content: "Kesgrave Mobile Car Detailing" },
+      { property: "og:description", content: "Premium mobile car detailing in kesgrave." },
+      { name: "twitter:description", content: "Premium mobile car detailing in kesgrave." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0d8b10f3-9072-4952-9c17-63f084ce1a87/id-preview-a0a64608--916880c3-fc03-4020-bbee-aa4c01eea464.lovable.app-1778859564598.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0d8b10f3-9072-4952-9c17-63f084ce1a87/id-preview-a0a64608--916880c3-fc03-4020-bbee-aa4c01eea464.lovable.app-1778859564598.png" },
     ],
     links: [
       {
