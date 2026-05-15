@@ -46,8 +46,8 @@ export function Footer() {
             <li><a href="#pricing" className="hover:text-foreground">Pricing</a></li>
             <li><a href="#faq" className="hover:text-foreground">FAQ</a></li>
             <li><a href="#contact" className="hover:text-foreground">Contact</a></li>
-            <li><a href="#" className="hover:text-foreground">Privacy</a></li>
-            <li><a href="#" className="hover:text-foreground">Terms</a></li>
+            <li><a href="/privacy" className="hover:text-foreground">Privacy</a></li>
+            <li><a href="/terms" className="hover:text-foreground">Terms</a></li>
           </ul>
         </div>
       </div>
